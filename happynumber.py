@@ -13,10 +13,6 @@ def happy(number):
         box.append(n)
         n = sum_of_squares(n)
     
-        if n == 1:
-            return True
-        else:
-            return False
-
+        return True if n == 1 else False
 
 
